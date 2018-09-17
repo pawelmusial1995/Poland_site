@@ -1,0 +1,64 @@
+
+
+body{
+font: 300 14px / 6em Montserrat, Arial, sans-serif;
+color: black;
+
+}
+
+/* Links*/
+
+a{
+  color:  black;
+  text-decoration: none;
+}
+a:hover{
+  opacity: 80%;
+}
+
+/* Images */
+img {
+max-width: 100%;
+height: auto;
+
+}
+/* Grid */
+.container  {
+  max-width: 1922px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* page header*/
+.page-header {
+
+}
+
+.page-header > .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/* Menu*/
+.menu-items  {
+padding: 0;
+margin: 0;
+list-style: none;
+}
+
+.menu-items li {
+  margin: 0 4px;
+  display: inline-block;
+}
+
+.menu-items li a {
+padding: 16px 25px
+color: #f3f3f3;
+font-size: 18px;
+font-weight: 400;
+line-height: 92px;
+display: block;
+letter-spacing: 0.45px;
+
+}
